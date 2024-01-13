@@ -1,6 +1,6 @@
 let board;
-let boardWidth = 360;
-let boardHeight = 576;
+let boardWidth = 320;
+let boardHeight = 536;
 let context;
 
 let doodlerWidth = 46;
@@ -101,7 +101,7 @@ function update(){
     context.fillText(score, 5, 20);
 
     if(gameOver){
-        context.fillText("Game Over: Press 'Space' to Restart", boardWidth/7, boardHeight*7/8);
+        context.fillText("Game Over: Press 'Space' to Restart", boardWidth/10, boardHeight*7/8);
     }
 }
 

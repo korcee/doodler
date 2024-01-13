@@ -1,6 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,100&family=Roboto+Condensed:wght@100;400&display=swap');
 body{
     text-align: center;
 }
 #board{
     background-image: url(./doodlejumpbg.png);
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow:  20px 20px 60px #c8c8c8,
+                -20px -20px 60px #ffffff;
+}
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 3px;
+    border-radius: 50px;
+    background: #ebebeb;
+    box-shadow:  20px 20px 60px #c8c8c8,
+                -20px -20px 60px #ffffff;
+}
+h1{
+    font-family: 'Poppins';
 }
